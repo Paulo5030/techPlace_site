@@ -1,0 +1,336 @@
+* {
+    
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+ 
+}
+body{
+    background-color: #56a5ff;
+}
+
+.banner{
+    background-image: url(../img/curso-de-informatica-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment:fixed;
+    width: 100%;
+    height: 500px;
+}
+/* ------estilo do formulario-------*/
+
+
+.formulario{
+    margin-top: 100px;
+    margin-bottom: 100Px;
+    width: 500px;
+    padding: 30px;
+    border:1px solid rgb(17, 20, 182);
+    background: linear-gradient(to left, #0d17a3, #3719e6);
+    color:#fff;
+    border-radius: 8px;
+    box-shadow: -5px 10px 50px #000;
+   
+}
+.formulario p{
+    width: 100%;
+    font-size: 1.5em;
+}
+.field{
+    width: 100%;
+    margin: 15px 0;
+}
+.field label, 
+.field span{
+    padding-left: 10px;
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+.radiobox label{
+    width: auto;
+    display: inline-block;
+}
+input[type=text],
+input[type=email],
+textarea{
+    width: 100%;
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+input#nao{
+    margin-left: 30px;
+}
+textarea{
+    line-height: 20px;
+    padding: 10px;
+    height: 120px;
+    resize: none;
+}
+input[type=submit]{
+    display: block;
+    background-color: rgb(245, 145, 13);
+    height: 35px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 15px;
+    color: #fff;
+}
+
+/*-----fim-----*?/
+
+
+/* -----estilo da barra de menu -----*/
+
+
+
+
+#menu-h{
+    background-color:(#f3f3f3);
+}
+
+#menu-h ul {
+    max-width: 400px;
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h ul li {
+    display: inline;
+}
+
+#menu-h ul li a {
+    color:black;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+
+#menu-h ul li a:hover {
+    background-color: rgb(245, 145, 13)
+}
+
+#menu-h ul li:last-child a {
+    float: right;
+    background-color:(#f3f3f3);
+}
+
+.logo img{ 
+    position: absolute;
+    margin-left: 50px; 
+    
+}
+
+
+
+
+/*--------fim--------*/
+
+/*-------quem somos--------*/
+#TP2{
+    color: rgb(245, 145, 13);
+    margin-top: 30px;
+    text-align: center;
+}
+.timeb{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    background: rgb(8, 8, 138);
+  
+}
+.quemsomos{
+    margin-top: 20px;
+    background-color: #f3f3f3;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding: 100px;
+}
+.lg{
+    
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+   
+    
+}
+
+.time{
+    margin-top: 20px;
+    background: rgb(8, 8, 138);
+    width: 100px;
+    height: 100px;
+    border-radius:100%;
+}
+.equipe  {
+  
+    background: rgb(8, 8, 138);
+    color: rgb(245, 145, 13);
+    text-align: center;
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 500px;
+    margin-right: 500px;
+ 
+}
+.equipe2{
+    background-color: rgb(8, 8, 138);
+    color: rgb(245, 145, 13);
+    text-align: center;
+    display: flex;
+    margin-left:300px;
+    margin-right: 500px;
+    
+    
+}
+
+
+.TP{
+    padding: 190px;
+    color: #fff;
+    text-align: center;
+    font-size: 40pt;
+}
+.cor_p{
+    color: rgb(245, 145, 13)
+}
+
+/*-----fim------*/
+
+
+
+
+/*-----rodape do site-------*/
+
+
+.rodape{
+    position: absolute;
+    margin-top:auto;
+    width: 100%;
+    height:200px; 
+    padding: 50px;
+    background: linear-gradient(to left, #d17307, #ffbf49);
+    color: #fff;
+    text-align: center;
+    display: flex;    
+}
+.logo2{
+    position: absolute;
+    margin-right: 20px;
+}
+
+
+i{
+    font-size: 30px;
+}
+a:visited{
+    color: #fff;
+    text-decoration: none;
+
+}
+
+/*-------serviços index-----------*/
+
+
+.servico{
+    background-color: #f3f3f3;
+    width: 100%;
+    display: flex;
+    margin: auto;
+   
+}
+.servico2{
+    background-color: #f3f3f3;
+    margin: auto;
+    display: flex;
+    width: 100%;
+}
+
+
+.s1{
+    background-color: #f3f3f3;
+    color:rgb(245, 145, 13) ;
+    text-align: center;
+    font-size: 30pt;
+}
+
+.manu{
+    margin-top: 50px;
+    color:rgb(8, 8, 138); 
+    text-align: center;
+    width: 100%;
+    height: 200px;
+}
+.m{
+    color:rgb(245, 145, 13) ; 
+
+}
+
+
+
+/*-----------servivos-------------*/
+
+.servicos_pl{
+    display: flex;
+    width: 100%;
+    height: 600px;
+
+}
+
+.plano1{
+    background-color:white;
+    width: 100%;
+    height: 599px;
+
+}
+
+.plano2{
+    background-color:white;
+    width: 100%;
+    height: 599px;
+}
+
+.plano3{
+    background-color:white;
+    width: 100%;
+    height: 599px;
+   
+}
+.plano{
+    color: rgb(245, 145, 13);
+    text-align: left;
+    font-size: 30pt;
+    margin-top: 10px;
+}
+
+.b1{
+    background-color: #f3f3f3;
+}
+.button{
+    margin-top: 20px;
+    margin-left: 46%;
+    margin-right: 53%;
+    margin-bottom: 20px;
+    background-color: rgb(8, 8, 138) ;
+    color: #fff;
+    width: 180px;
+    height: 50px;
+    border-radius: 50px;
+    transition: background .4s;
+
+}
+.button a{
+    text-decoration: none;
+}
